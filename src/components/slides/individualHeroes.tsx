@@ -2,6 +2,23 @@
 import { FC } from 'react';
 import React from "react";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
+import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
+
+const IndividualHeroes: FC = () => {
+  return (
+    <div className="flex flex-col w-screen items-center justify-center h-screen bg-neutral-100 bg-dot-black/[0.2] text-white text-3xl">
+      <h3 className='mb-16'>
+        <TypewriterEffectSmooth words={words} />
+      </h3>
+      <div className='flex flex-row'>
+        <AnimatedTooltip items={people} />
+      </div>
+    </div>
+  );
+};
+
+export default IndividualHeroes;
+
 const people = [
   {
     id: 1,
@@ -47,12 +64,15 @@ const people = [
   },
 ];
 
-const Slide2: FC = () => {
-  return (
-    <div className="flex w-screen items-center justify-center h-screen bg-blue-200 text-white text-3xl">
-      <AnimatedTooltip items={people} />
-    </div>
-  );
-};
-
-export default Slide2;
+const words = [
+  {
+    text: "Our",
+  },
+  {
+    text: "modern",
+  },
+  {
+    text: "Heroes",
+    className: "text-blue-500 dark:text-blue-500",
+  },
+];
