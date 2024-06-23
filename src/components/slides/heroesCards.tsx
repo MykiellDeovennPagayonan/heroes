@@ -41,6 +41,7 @@ preventative actions to protect the public's health`,
         />
       </div>
     ),
+    link: "/fauci"
   },
   {
     title: "Tim Berners-Lee",
