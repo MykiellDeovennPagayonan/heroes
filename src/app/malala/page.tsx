@@ -92,18 +92,18 @@ const Page: FC = () => {
             translateZ="50"
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
-            Dr. Anthony Fauci
+            Malala Yousafzai
           </CardItem>
           <CardItem
             as="p"
             translateZ="60"
             className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
-            Dr. Anthony Fauci is a top American immunologist who led the U.S. COVID-19 response.
+            Malala Yousafzai is a Pakistani activist for female education and the youngest Nobel Prize laureate.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
-              src="/images/fauci.png"
+              src="/images/Malala.jpg"
               height="1000"
               width="1000"
               className="h-80 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -129,4 +129,4 @@ const Page: FC = () => {
 
 export default Page;
 
-const prompt = "A fan of Dr. Anthony Fauci will be asking questions about him as a hero. Your role is to reply to them about him on any queries";
+const prompt = "A fan of Malala Yousafzai will be asking questions about her as a hero. Your role is to reply to them about her on any queries";

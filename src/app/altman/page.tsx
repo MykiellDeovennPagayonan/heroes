@@ -92,18 +92,18 @@ const Page: FC = () => {
             translateZ="50"
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
-            Dr. Anthony Fauci
+            Sam Altman
           </CardItem>
           <CardItem
             as="p"
             translateZ="60"
             className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
-            Dr. Anthony Fauci is a top American immunologist who led the U.S. COVID-19 response.
+            Sam Altman is the CEO of OpenAI and a influential figure in the tech and AI industries.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
-              src="/images/fauci.png"
+              src="/images/Altman.jpeg"
               height="1000"
               width="1000"
               className="h-80 w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -129,4 +129,4 @@ const Page: FC = () => {
 
 export default Page;
 
-const prompt = "A fan of Dr. Anthony Fauci will be asking questions about him as a hero. Your role is to reply to them about him on any queries";
+const prompt = "A fan of Sam Altman will be asking questions about him as a hero. Your role is to reply to them about him on any queries";
