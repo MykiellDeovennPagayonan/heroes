@@ -27,7 +27,7 @@ const OpeningSlide: FC = () => {
           HERO?
         </Highlighted>
       </motion.h1>
-      <h2 className='flex flex-col text-center my-12 text-7xl font-bold text-white'>
+      <h2 className='flex flex-col text-center my-12 text-5xl lg:text-7xl font-bold text-white'>
         <>A Hero is</>
         <FlipWords className="text-center text-green-400" words={words} />
       </h2>

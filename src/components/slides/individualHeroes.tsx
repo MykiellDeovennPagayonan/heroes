@@ -1,12 +1,17 @@
-// components/Slide1.tsx
 import { FC } from 'react';
 import React from "react";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { TypewriterEffectSmooth } from "../ui/typewriter-effect";
+import { Spotlight } from '../ui/spotlight';
+import { cn } from "@/lib/utils";
 
 const IndividualHeroes: FC = () => {
   return (
-    <div className="flex flex-col w-screen items-center justify-center h-screen bg-neutral-100 bg-dot-black/[0.2] text-white text-3xl">
+    <div className="flex flex-col w-screen items-center justify-center h-screen bg-neutral-950 bg-dot-white/[0.1] text-white text-3xl">
+      <Spotlight
+        className="top-20 lg:-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
       <h3 className='mb-16'>
         <TypewriterEffectSmooth words={words} />
       </h3>
@@ -22,54 +27,49 @@ export default IndividualHeroes;
 const people = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Software Engineer",
+    name: "Dr. Anthony Fauci",
+    designation: "Doctor",
     image:
-      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+      "/images/Fauci.png",
   },
   {
     id: 2,
-    name: "Robert Johnson",
-    designation: "Product Manager",
+    name: "Tim Berners-Lee",
+    designation: "Inventor of the World Wide Web",
     image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "/images/Tim.jpg",
   },
   {
     id: 3,
-    name: "Jane Smith",
-    designation: "Data Scientist",
+    name: "Sam Altman",
+    designation: "A guy",
     image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "/images/Altman.jpeg",
   },
   {
     id: 4,
-    name: "Emily Davis",
-    designation: "UX Designer",
+    name: "Katherine Johnson",
+    designation: "Mathematician",
     image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "/images/Johnson.jpg",
   },
   {
     id: 5,
-    name: "Tyler Durden",
-    designation: "Soap Developer",
+    name: "Malala Yousafzai",
+    designation: "Global symbol",
     image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  },
-  {
-    id: 6,
-    name: "Dora",
-    designation: "The Explorer",
-    image:
-      "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
-  },
+      "/images/Malala.jpg",
+  }
 ];
 
 const words = [
   {
     text: "Our",
+    className: "text-white",
   },
   {
     text: "modern",
+    className: "text-white",
   },
   {
     text: "Heroes",
