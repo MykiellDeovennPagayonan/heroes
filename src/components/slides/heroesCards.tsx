@@ -41,6 +41,7 @@ preventative actions to protect the public's health`,
         />
       </div>
     ),
+    link: "/fauci"
   },
   {
     title: "Tim Berners-Lee",
@@ -79,6 +80,7 @@ internet are shared equitably across all societies.
         />
       </div>
     ),
+    link: "/tim"
   },
   {
     title: "Sam Altman",
@@ -115,6 +117,7 @@ technology and its role in society.
         />
       </div>
     ),
+    link: "/altman"
   },
   {
     title: "Katherine Johnson",
@@ -149,6 +152,7 @@ advancement.`,
         />
       </div>
     ),
+    link: "/johnson"
   },
   {
     title: "Malala Yousafzai",
@@ -182,5 +186,6 @@ power of education in building a more just and equitable society`,
         />
       </div>
     ),
+    link: "/malala"
   },
 ];
