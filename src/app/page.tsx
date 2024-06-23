@@ -4,10 +4,10 @@ import { AnimatePresence, motion } from 'framer-motion';
 import OpeningSlide from "@/components/slides/openingSlide";
 import IndividualHeroes from "@/components/slides/individualHeroes";
 import QualitiesOfHeroes from "@/components/slides/qualitiesOfHeroes";
-import Slide3 from "@/components/slides/slide3";
+import HeroesCards from "@/components/slides/heroesCards";
 import { useState } from "react";
 
-const slides = [<OpeningSlide key="slide1" />, <QualitiesOfHeroes key="slide4" />, <IndividualHeroes key="slide2" />,<Slide3 key="slide3" />]
+const slides = [<OpeningSlide key="slide1" />, <QualitiesOfHeroes key="slide4" />, <IndividualHeroes key="slide2" />,<HeroesCards key="slide3" />]
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);

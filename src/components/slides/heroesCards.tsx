@@ -1,9 +1,8 @@
 // components/Slide1.tsx
 import { FC } from 'react';
-import Image from "next/image";
 import { PinContainer } from "@/components/ui/3d-pin";
 
-const Slide3: FC = () => {
+const HeroesCards: FC = () => {
   return (
     <div className="flex w-screen items-center justify-center h-screen bg-blue-200 text-white text-3xl">
 <div className="h-[40rem] w-full flex items-center justify-center ">
@@ -27,4 +26,4 @@ const Slide3: FC = () => {
   );
 };
 
-export default Slide3;
+export default HeroesCards;
