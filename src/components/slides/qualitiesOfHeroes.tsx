@@ -49,7 +49,7 @@ const CARDS = [
     designation: "Senior Shitposter",
     content: (
       <p>
-        Must be like <Highlight>ME</Highlight>
+        <Highlight> Empathy, selflessness, and integrity </Highlight> are crucial qualities of heroism for me, embodying the best of humanity. Integrating these traits into my work as a Software Engineering student will make me a better engineer and person, aiming to bring a more human touch to the technical world.
       </p>
     ),
   },
