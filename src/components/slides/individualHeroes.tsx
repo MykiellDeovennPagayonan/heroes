@@ -27,10 +27,10 @@ export default IndividualHeroes;
 const people = [
   {
     id: 1,
-    name: "Dr. Anthony Fauci",
-    designation: "Doctor",
+    name: "Nelson Mandela",
+    designation: "Advocate",
     image:
-      "/images/Fauci.png",
+      "/images/Mandela.jpg",
   },
   {
     id: 2,
@@ -41,10 +41,10 @@ const people = [
   },
   {
     id: 3,
-    name: "Sam Altman",
-    designation: "A guy",
+    name: "Jimmy Donaldson (MrBeast)",
+    designation: "Philanthropist",
     image:
-      "/images/Altman.jpeg",
+      "/images/Jimmy.jpg",
   },
   {
     id: 4,
