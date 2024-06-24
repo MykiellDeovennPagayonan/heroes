@@ -38,7 +38,7 @@ const CARDS = [
     name: "Dale",
     content: (
       <p>
-        A hero's identifying trait is to be <Highlight> selfless </Highlight> in lending their service to the people, not expecting any self-gain but hope for the betterment of the greater picture. Eventually, we can be our own heroes; <Highlight>paving a path for those who cannot </Highlight>, as maybe someone has in our own lives.
+        A hero&apos;s identifying trait is to be <Highlight> selfless </Highlight> in lending their service to the people, not expecting any self-gain but hope for the betterment of the greater picture. Eventually, we can be our own heroes; <Highlight>paving a path for those who cannot </Highlight>, as maybe someone has in our own lives.
       </p>
     ),
   },

@@ -101,7 +101,7 @@ const Page: FC = () => {
             translateZ="60"
             className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
-            Nelson Mandela was a South African leader who fought against apartheid and became the country's first Black president.
+            Nelson Mandela was a South African leader who fought against apartheid and became the country&apos;s first Black president.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image

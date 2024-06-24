@@ -7,7 +7,7 @@ let interval: any;
 type Card = {
   id: number;
   name: string;
-  designation: string;
+  designation?: string;
   content: React.ReactNode;
 };
 
@@ -62,9 +62,10 @@ export const CardStack = ({
               <p className="text-neutral-500 font-medium dark:text-white">
                 {card.name}
               </p>
-              <p className="text-neutral-400 font-normal dark:text-neutral-200">
-                {card.designation}
-              </p>
+              {card.designation &&
+                <p className="text-neutral-400 font-normal dark:text-neutral-200">
+                  {card.designation}
+                </p>}
             </div>
           </motion.div>
         );
