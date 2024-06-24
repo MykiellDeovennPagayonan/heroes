@@ -38,4 +38,4 @@ const OpeningSlide: FC = () => {
 
 export default OpeningSlide;
 
-const words = ["Selfless", "Empathic", "Couragous", "Fearless", "Integrous"];
+const words = ["Selfless", "Empathic", "Couragous", "Fearless", "Fearless", "Compassionate", "Altruistic", "Inspirational"];
