@@ -15,25 +15,14 @@ export default HeroesCards;
 
 const content = [
   {
-    title: "Dr. Anthony Fauci",
+    title: "Nelson Mandela",
     description:
-      `Given his persistent dedication to public health and his critical
-part in coordinating and disseminating responses to infectious
-disease epidemics, Dr. Anthony Fauci has become a hero in today's
-culture. Since taking over as head of the National Institute of Allergy
-and Infectious Diseases (NIAID) in 1984, Dr. Fauci has been at the
-vanguard of many health emergencies, such as the COVID-19
-pandemic, HIV/AIDS, SARS, H1N1, and Ebola. His scientific expertise
-and his ability to explain complicated medical concepts to the
-general people in an understandable way have made him a reliable
-source of information during uncertain times. Dr. Fauci has
-continuously promoted evidence-based strategies during these
-crises, stressing the value of research, immunizations, and
-preventative actions to protect the public's health`,
+      `Nelson Mandela was a South African anti-apartheid revolutionary and political leader who served as President of South Africa from 1994 to 1999. Born in 1918, Mandela played a crucial role in the fight against the apartheid system, a regime of racial segregation and discrimination against non-white South Africans. He spent 27 years in prison for his activism before being released in 1990, going on to negotiate an end to apartheid and becoming the country's first democratically elected president.
+Mandela is considered a modern hero for his unwavering commitment to justice, equality, and reconciliation. Despite facing decades of persecution and imprisonment, he emerged without bitterness, advocating for peace and unity in a deeply divided nation. His leadership in dismantling apartheid and promoting a multiracial democracy in South Africa, coupled with his message of forgiveness and national reconciliation, inspired people worldwide. Mandela's life exemplifies the power of perseverance, moral courage, and the ability to bring about significant social change through nonviolent means, making him an enduring symbol of hope and human rights.`,
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
-          src="/images/Fauci.png"
+          src="/images/Mandela.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -41,7 +30,7 @@ preventative actions to protect the public's health`,
         />
       </div>
     ),
-    link: "/fauci"
+    link: "/mandela"
   },
   {
     title: "Tim Berners-Lee",
@@ -83,33 +72,44 @@ internet are shared equitably across all societies.
     link: "/tim"
   },
   {
-    title: "Sam Altman",
+    title: "Jimmy Donaldson (MrBeast)",
     description:
-      `Sam Altman is a significant figure in the technology and
-entrepreneurial world, known for his leadership in innovation and his
-contributions to the development of artificial intelligence. As the
-former president of Y Combinator, Altman played a crucial role in
-fostering startup culture, helping to launch and guide numerous
-successful companies that have shaped the tech landscape. His work
-at Y Combinator has empowered entrepreneurs by providing them
-with the resources and mentorship needed to turn innovative ideas
-into impactful businesses.
+      `MrBeast, whose real name is
+Jimmy Donaldson, has become a
+modern-day hero through his
+philanthropic efforts and
+innovative approach to content
+creation on YouTube. He gained
+fame for his attention-grabbing
+and often whimsical videos,
+which range from massive
+challenges and stunts to acts of
+extreme generosity. What sets
+MrBeast apart is his
+commitment to giving back to
+communities and individuals in
+need.
 
-In recent years, Altman has made notable strides in the field of
-artificial intelligence as the CEO of OpenAI. Under his leadership,
-OpenAI has advanced the development and ethical implementation
-of AI technologies, striving to ensure that the benefits of AI are widely
-and equitably distributed. Altman's commitment to balancing
-technological progress with societal well-being highlights his role as
-a forward-thinking leader in the tech industry. His efforts in
-promoting responsible AI development and fostering innovation
-have positioned him as a key figure in shaping the future of
-technology and its role in society.
+One of MrBeast's most notable
+initiatives is his focus on charitable giving. He has conducted
+numerous fundraising campaigns where he donates large sums of
+money to people experiencing hardship, small businesses, and
+charitable organizations. These efforts have helped raise awareness
+about various social issues and inspired his audience to participate in
+acts of kindness and generosity.
+
+Moreover, MrBeast's creativity in content creation has captured the
+imagination of millions of viewers worldwide. His ability to turn
+entertaining challenges into meaningful opportunities for positive
+impact has earned him a dedicated following and widespread
+admiration. Through his videos, MrBeast continues to demonstrate
+the power of using influence and creativity for good, making him a
+hero in the eyes of many.
 `,
     content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         <Image
-          src="/images/Altman.jpeg"
+          src="/images/Jimmy.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -117,7 +117,7 @@ technology and its role in society.
         />
       </div>
     ),
-    link: "/altman"
+    link: "/jimmy"
   },
   {
     title: "Katherine Johnson",

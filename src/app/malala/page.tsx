@@ -4,11 +4,13 @@ import { FC, useState, useEffect } from 'react';
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Image from "next/image";
 import getResponse from '@/utils/openAIResponse';
+import { useRouter } from 'next/navigation';
 
 const Page: FC = () => {
   const [isListening, setIsListening] = useState<boolean>(false);
   const [recognition, setRecognition] = useState<SpeechRecognition | null>(null);
   const [isSpeaking, setIsSpeaking] = useState<boolean>(false);
+  const router = useRouter();
 
   useEffect(() => {
     if ('webkitSpeechRecognition' in window) {
@@ -123,6 +125,12 @@ const Page: FC = () => {
           </div>
         </CardBody>
       </CardContainer>
+      <button
+        onClick={() => router.push("/")}
+        className="absolute top-4 left-4 bg-gray-800 text-white p-2 rounded"
+      >
+        Back
+      </button>
     </div>
   );
 };

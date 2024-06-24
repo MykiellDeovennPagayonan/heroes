@@ -36,17 +36,15 @@ const CARDS = [
   {
     id: 0,
     name: "Dale",
-    designation: "Senior Software Engineer",
     content: (
       <p>
-        They must be blazingly <Highlight> HOT </Highlight>
+        A hero&apos;s identifying trait is to be <Highlight> selfless </Highlight> in lending their service to the people, not expecting any self-gain but hope for the betterment of the greater picture. Eventually, we can be our own heroes; <Highlight>paving a path for those who cannot </Highlight>, as maybe someone has in our own lives.
       </p>
     ),
   },
   {
     id: 1,
     name: "Sam",
-    designation: "Senior Shitposter",
     content: (
       <p>
         <Highlight> Empathy, selflessness, and integrity </Highlight> are crucial qualities of heroism for me, embodying the best of humanity. Integrating these traits into my work as a Software Engineering student will make me a better engineer and person, aiming to bring a more human touch to the technical world.
@@ -56,11 +54,9 @@ const CARDS = [
   {
     id: 2,
     name: "Mykiell",
-    designation: "Manager Project Mayhem",
     content: (
       <p>
-        Must love
-        <Highlight>BURGERS</Highlight>
+        A hero is someone that that <Highlight> seeks to better the world. </Highlight> Their genuine intentions are to help their fellow human beings, with the courage and ability to make meaningful steps, while <Highlight> inspiring others to do the same </Highlight>. 
       </p>
     ),
   },

@@ -7,7 +7,7 @@ let interval: any;
 type Card = {
   id: number;
   name: string;
-  designation: string;
+  designation?: string;
   content: React.ReactNode;
 };
 
@@ -55,16 +55,17 @@ export const CardStack = ({
               zIndex: cards.length - index, //  decrease z-index for the cards that are behind
             }}
           >
-            <div className="font-normal text-neutral-700 dark:text-neutral-200">
+            <div className="font-normal text-xs md:text-base text-neutral-700 dark:text-neutral-200">
               {card.content}
             </div>
             <div>
               <p className="text-neutral-500 font-medium dark:text-white">
                 {card.name}
               </p>
-              <p className="text-neutral-400 font-normal dark:text-neutral-200">
-                {card.designation}
-              </p>
+              {card.designation &&
+                <p className="text-neutral-400 font-normal dark:text-neutral-200">
+                  {card.designation}
+                </p>}
             </div>
           </motion.div>
         );
