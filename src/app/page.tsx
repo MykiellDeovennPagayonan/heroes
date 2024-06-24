@@ -5,9 +5,10 @@ import OpeningSlide from "@/components/slides/openingSlide";
 import IndividualHeroes from "@/components/slides/individualHeroes";
 import QualitiesOfHeroes from "@/components/slides/qualitiesOfHeroes";
 import HeroesCards from "@/components/slides/heroesCards";
+import HowToBeHero from "@/components/slides/howToBeHero";
 import { useState } from "react";
 
-const slides = [<OpeningSlide key="slide1" />, <QualitiesOfHeroes key="slide4" />, <IndividualHeroes key="slide2" />,<HeroesCards key="slide3" />]
+const slides = [<OpeningSlide key="slide1" />, <QualitiesOfHeroes key="slide2" />, <IndividualHeroes key="slide3" />,<HeroesCards key="slide4" />, <HowToBeHero key="slide5" />]
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
